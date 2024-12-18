@@ -1,0 +1,237 @@
+body{
+    background-image: linear-gradient(326deg, rgba(236, 236, 236,0.04) 0%, rgba(236, 236, 236,0.04) 6%,rgba(157, 157, 157,0.04) 6%, rgba(157, 157, 157,0.04) 29%,rgba(77, 77, 77,0.04) 29%, rgba(77, 77, 77,0.04) 100%),linear-gradient(164deg, rgba(236, 236, 236,0.04) 0%, rgba(236, 236, 236,0.04) 36%,rgba(157, 157, 157,0.04) 36%, rgba(157, 157, 157,0.04) 61%,rgba(77, 77, 77,0.04) 61%, rgba(77, 77, 77,0.04) 100%),linear-gradient(336deg, rgba(236, 236, 236,0.04) 0%, rgba(236, 236, 236,0.04) 64%,rgba(157, 157, 157,0.04) 64%, rgba(157, 157, 157,0.04) 69%,rgba(77, 77, 77,0.04) 69%, rgba(77, 77, 77,0.04) 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+}
+
+.logotipo{
+    width: 250px;
+}
+
+.btnMenu {
+        color: rgb(243, 243, 243);
+}
+
+.menuNav{
+    color: rgb(243, 243, 243);
+    text-decoration: none;
+}
+
+.imgAkapellah{
+    width: 300px;
+}
+
+.tituloAkapellah{
+    margin-top: 10px;
+    color: rgb(220, 220, 220);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.textNav{
+    color: #a4a4a4;
+    text-decoration: none;
+    font-weight: 500;
+    margin-inline-end: 10px;
+}
+
+.texNav:hover{
+    color:#9a6AFF;
+    
+}
+
+.videoAcapellah{
+    filter: opacity(50%);
+}
+
+.imgBiogracia{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    mask-image: linear-gradient( black 80%, transparent);
+    
+}
+
+.biografia{
+    color: #E3E3E3;
+}
+
+.tituloBiografia{
+    color: #E3E3E3;
+}
+
+.textoSegundarioBiografia{
+    color:#9a6AFF;
+    font-weight: 500;
+    opacity: 50%;
+}
+
+.bg-seccion{
+    background-color: rgba(0, 0, 0, 0.375);
+    
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.cardAlbum{
+    border: none;
+}
+
+.iconos{
+    width: 20px;
+    cursor: pointer;
+    opacity: 90%;
+}
+
+.textAlbum{
+    color: rgb(199, 199, 199);
+}
+
+.iconosRedes{
+    width: 40px;
+    cursor: pointer;
+}
+
+
+/* Btn Social X */
+/* Scrooll */
+.stock-ticker {
+    font-size: 15px;
+    padding-block: 8px;
+    overflow: hidden;
+    user-select: none;
+    color: #996affc3;
+    font-weight: bold;
+    
+
+    --gap: 20px;
+    display: flex;
+    gap: var(--gap);
+}
+
+
+
+.stock-ticker ul {
+    list-style: none;
+    flex-shrink: 0;
+    min-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+    animation: scroll 27s linear infinite;
+}
+
+.stock-ticker:hover ul {
+    animation-play-state: paused;
+}
+
+@keyframes scroll {
+    to {
+    transform: translateX(calc(-100% - var(--gap)));
+    }
+}
+
+
+.stock-ticker .company {
+    font-weight: bold;
+    color: #e3e3e3be;;
+    
+}
+
+/* Btn */
+
+.buttonSpotify {
+    display: flex;
+    background-color: #4ac062;
+    /* background-image: linear-gradient(to top right, #0163E0,#18ACFE); */
+    color: #ffffff;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: .6s ease;
+}
+.buttonSpotify svg {
+    height: 30px;
+}
+
+.buttonSpotify:hover {
+    box-shadow: none;
+}
+.contenedorRedes{
+    padding-left: 25%;
+    
+}
+
+.contenedorInformaciones {
+    padding: 30px;
+    margin: 20px;
+    
+
+}
+.imagenInfo{
+    width: 400px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    mask-image: linear-gradient( black 80%, transparent);
+}
+.contenedorImagenInfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 170px;
+    
+}
+
+
+.imgAlbum{
+    opacity: 80%;
+}
+.contenedorInformacion{
+    margin-top: 30px;
+}
+.contenedorBtn{
+    margin-top: 30px;
+}
+
+/* Btn Facebook */
+
+.buttonFacebook {
+    
+    display: flex;
+    background-color: #58585839;
+    background-image: linear-gradient(to top right, #9a6AFF,#1d1d1dac);
+    color: #ffffff;
+    padding: 0.5rem 1.4rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: 0.75rem;
+    border: none;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    transition: .6s ease;
+    margin-bottom: 20px;
+  }
+  
+  .buttonFacebook  svg {
+    height: 30px;
+  }
+  
+  .buttonFacebook :hover {
+    box-shadow: none;
+  }
+  
+
+/* Btn Twitter */
